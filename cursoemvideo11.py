@@ -1,0 +1,53 @@
+
+
+'''ADICIONANDO CORES AO PYTHON'''
+
+#ANSI - ESCAPE SEQUNCES
+
+'''TUDO DENTRO DE ANSI COMEÇA COM \033[style - texto - background   m
+EX.:
+\033[0;33;44m
+
+COD. ESTILO :
+0 - NONE (SEM ESTILO)
+1 - BOLD (NEGRITO)
+4 - SUBLINHADO (UNDERLINE)
+7 - NEGATIVO (INVERTE A LETRA E FUNDO)
+
+COD. TEXTO :
+30 - BRANCO
+31 - VERMELHO
+32 - VERDE
+33 - AMARELO
+34 - AZUL
+35 - MAGENTA
+36 - CIANO
+37 - CINZA (COR PADRÃO)
+
+COD. BACKGROUND :
+40 - BRANCO
+41 - VERMELHO
+42 - VERDE
+43 - AMARELO
+44 - AZUL
+45 - MAGENTA
+46 - CIANO
+47 - CINZA (COR PADRÃO)
+
+'''
+#TESTES:
+'''
+\033[0;30;41m
+\033[4;33;44m
+\033[1;35;43m
+\033[30;42m
+\033[m
+\033[7;30m
+'''
+
+print('\033[0;30;41mOlá, Mundo!')
+print('\033[4;33;44mOlá, Mundo!')
+print('\033[1;35;43mOlá, Mundo!')
+print('\033[30;42mOlá, Mundo!')
+print('\033[mOlá, Mundo!')
+print('\033[7;30mOlá, Mundo!')
